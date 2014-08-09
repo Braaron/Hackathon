@@ -1,0 +1,9 @@
+# editorconfig.org
+editorconfig.orgroot = true
+
+[*]
+indentstyle = space
+indentsize = 4
+endofline = lf
+charset = utf-8
+trimtrailingwhitespace = true
