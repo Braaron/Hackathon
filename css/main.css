@@ -1,0 +1,74 @@
+/*
+    <div class = "class-a class-b"></div>
+*/
+header {
+    background-color: grey;
+}
+.main_nav{
+    position: relative;
+}
+.main_nav__item {
+    position: absolute;
+    display: inline-block;
+    width:24%;
+}
+.main_nav__item::after{
+    content: 'asdfasdf';
+    left:0;
+}
+
+.main_area div {
+    height:600px;
+}
+.main_area__file_list{
+    background-color: black;
+}
+.main_area__text_area{
+    background-color: green;
+}
+.main_area__file_properties{
+    background-color: purple;
+}
+
+footer{
+    background-color: red;
+}
+
+.slick-prev {
+    left:25px;
+}
+.slick-next {
+    right:25px;
+}
+.slide {
+    height:400px;
+}
+.slick-dots li button {
+    border: 0;
+    background: transparent;
+    display: block;
+    height: 20px;
+    width: 20px;
+    outline: none;
+    line-height: 0;
+    font-size: 10px;
+    color: transparent;
+    padding: 5px;
+    cursor: pointer;
+}
+.slick-dots li button:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "\2022";
+    width: 20px;
+    height: 20px;
+    font-family: "slick";
+    font-size: 6px;
+    line-height: 20px;
+    text-align: center;
+    color: red;
+    opacity: 0.25;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
